@@ -7,7 +7,7 @@ export default class Footer extends Component{
                 <div className="container">
                     <p className="copyright">&copy; 2022 All rights reserved </p>
                     <ul className="social">
-                        <li className="wow bounceIn"><a href="http://goo.gl/RqhEjP" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li className="wow bounceIn"><a href="http://goo.gl/RqhEjP" target="_blank"><i className="fa fa-facebook"></i></a></li>
                         <li className="wow bounceIn" data-wow-delay="0.1s"><a href="http://goo.gl/hUfpSB" target="_blank"><i className="fa fa-twitter"></i></a></li>
                         <li className="wow bounceIn" data-wow-delay="0.2s"><a href="http://goo.gl/k9zAy5" target="_blank"><i className="fa fa-dribbble"></i></a></li>
                         <li className="wow bounceIn" data-wow-delay="0.3s"><a href="http://goo.gl/FPjuCE" target="_blank"><i className="fa fa-behance"></i></a></li>
