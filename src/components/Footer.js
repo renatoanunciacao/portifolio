@@ -14,7 +14,7 @@ export default class Footer extends Component{
                         <li className="wow bounceIn" data-wow-delay="0.4s"><a href="http://goo.gl/UYjGTR" target="_blank"><i className="fa fa-pinterest"></i></a></li>
                         <li className="wow bounceIn" data-wow-delay="0.5s"><a href="http://goo.gl/r4xzR4" target="_blank"><i className="fa fa-google"></i></a></li>
                     </ul>
-                    <a href="index.html#home" data-scroll class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+                    <a href="index.html#home" data-scroll class="back-to-top"><i className="fa fa-chevron-up"></i></a>
                 </div>
            </footer>
         )
