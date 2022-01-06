@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Portfolio from "./components/Porfolio";
@@ -12,7 +13,7 @@ function App() {
       <Slider />
       <Services />
       <Portfolio />
-
+      <Contact />
       <Footer />
     </div>
   );
