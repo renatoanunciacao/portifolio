@@ -36,7 +36,7 @@ export default class Contact extends Component{
    async sendMail(e){
        e.preventDefault();
        const { nome, email, assunto, mensagem } = this.state;
-       const form = await axios.post("/api/form", {
+       const form = await axios.post("https://sendmailercontact.herokuapp.com/api/form", {
         nome,   
         email,
         assunto,
