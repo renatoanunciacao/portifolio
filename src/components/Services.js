@@ -33,7 +33,7 @@ export default class Services extends Component{
                         </div>
                     </div>
                     <div className="col-md-4 text-center">
-                        <img src="/assets/img/phone.png" alt="Phone" />
+                        
                     </div>
                     <div className="col-md-4">
                         <div className="service-item text-left wow fadeInUp">
