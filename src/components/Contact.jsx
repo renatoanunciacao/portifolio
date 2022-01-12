@@ -43,9 +43,7 @@ export default class Contact extends Component{
         mensagem
        })
 
-	   if(form.status === 201){
-		show = true;
-	   }
+	   
    }
 
     render(){
