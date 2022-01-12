@@ -8,8 +8,6 @@ export default class Contact extends Component{
     assunto = React.createRef();
     mensagem = React.createRef();
 
-	handleClose = () => setShow(false);
-	handleShow = () => setShow(true);
     state = {
         nome: "",
         email: "",
@@ -32,7 +30,6 @@ export default class Contact extends Component{
 
    constructor(){
        super();
-	   const [show, setShow] = useState(false);
 	   this.sendMail = this.sendMail.bind(this);
    }
 
@@ -95,21 +92,6 @@ export default class Contact extends Component{
 			</div>
 		</div>
 	</div>
-
-	<Modal show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title>E-mail enviado com sucesso</Modal.Title>
-        </Modal.Header>
-        <Modal.Body>Aguarde, nosso time logo irá verificar e irá lhe responder em seguida.</Modal.Body>
-        <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
-            Close
-          </Button>
-          <Button variant="primary" onClick={handleClose}>
-            Save Changes
-          </Button>
-        </Modal.Footer>
-      </Modal>
 </section>
         )
     }
