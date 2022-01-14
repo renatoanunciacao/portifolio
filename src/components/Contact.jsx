@@ -53,13 +53,10 @@ export default class Contact extends Component {
 			this.setState({ show: true });
 			setTimeout(() => {
 				this.setState({
-					nome: '',
-					email: '',
-					assunto: '',
-					mensagem: '',
 					show: false
 				})
 			}, 7000);
+			document.getElementById("sendData").reset();
 		}
 
 	}
@@ -73,7 +70,7 @@ export default class Contact extends Component {
 						<p className="wow fadeInUp" data-wow-delay="0.1s">Envie sua proposta.
 						</p>
 					</header>
-					<form className="row" onSubmit={this.sendMail.bind(this)}>
+					<form className="row sendData" onSubmit={this.sendMail.bind(this)} id="sendData">
 						<div className="form-group col-md-6">
 							<input name="name" type="text" placeholder="Nome" className="form-control" onChange={this.comprovarCambios} ref={this.nome} />
 						</div>
