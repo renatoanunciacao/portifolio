@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-import { Alert, Modal } from "react-bootstrap";
+import { Alert } from "react-bootstrap";
 
 export default class Contact extends Component {
 
