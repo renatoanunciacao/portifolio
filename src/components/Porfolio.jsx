@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
 
 		return (
 			<>
-				<section>
+				<section id="portfolio">
 					<div className="container">
 						<header>
 							<h2 className="wow fadeInDown">galeria de imagens</h2>
